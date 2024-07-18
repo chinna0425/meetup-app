@@ -1,0 +1,65 @@
+.register-page-main-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.register-page-second-container {
+  display: flex;
+  width: 80%;
+  height: 90vh;
+  align-items: center;
+}
+.register-image-container {
+  width: 50%;
+}
+.register-details-container {
+  width: 50%;
+}
+.form-heading {
+  font-size: 42px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  color: #334155;
+}
+.register-page-label {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  color: #475569;
+}
+.register-page-input-field {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  color: #475569;
+  width: 50%;
+  cursor: pointer;
+  outline: none;
+  height: 38px;
+  padding-left: 10px;
+  border-radius: 2px;
+  border: 1px solid #cbd5e1;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+.register-now-button {
+  padding: 25px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  cursor: pointer;
+  outline: none;
+  border-width: 0px;
+  color: #ffffff;
+  background-color: #3b82f6;
+  border-radius: 3px;
+}
+.error-message {
+  color: #ff0b37;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}

@@ -1,0 +1,44 @@
+.home-page-main-container {
+  height: 100vh;
+  padding: 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.home-page-text-container {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.home-page-main-heading {
+  font-size: 48px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  color: #334155;
+  margin-bottom: 8px;
+}
+.home-page-para {
+  font-size: 24px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  color: #475569;
+  margin-top: 8px;
+}
+.home-page-register-button {
+  padding: 17px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  cursor: pointer;
+  outline: none;
+  border-width: 0px;
+  color: #ffffff;
+  background-color: blue;
+  border-radius: 3px;
+}
+.style-color {
+  color: #3b82f6;
+}
